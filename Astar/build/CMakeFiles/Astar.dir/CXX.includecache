@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../library/Astar.h
+Eigen/Dense
+-
+vector
+-
+stack
+-
+map
+-
+bits/stdc++.h
+-
+queue
+-
+
+/home/mason/Code/Astar/source/run.cpp
+iostream
+-
+map
+-
+Astar.h
+/home/mason/Code/Astar/source/Astar.h
+Eigen/Dense
+-
+vector
+-
+
